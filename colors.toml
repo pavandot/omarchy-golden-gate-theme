@@ -1,0 +1,39 @@
+# Golden Gate: a macOS-inspired dark theme in International Orange.
+# Apple dark-mode system colours over fog-tinted Pacific navy; the accent is the
+# bridge's own orange. bright_* use the increased-contrast variants.
+mode = "dark"
+
+accent = "#ec5a2c"
+selection = "#6a3a2c"
+selection_foreground = "#ffffff"
+muted = "#8e8e99"
+
+# Hairline window edges with a warm top-left sunset highlight.
+hyprland_active_border = "rgba(ffcfa84d) rgba(ffffff12) 135deg"
+hyprland_inactive_border = "rgba(ffffff14)"
+
+background = "#1b1d26"
+dark_background = "#15171e"
+darker_background = "#0f1117"
+lighter_background = "#2a2c37"
+
+foreground = "#f5f1ec"
+dark_foreground = "#9a97a3"
+light_foreground = "#e8e3dd"
+bright_foreground = "#ffffff"
+
+red = "#ff453a"
+yellow = "#ffc145"
+orange = "#ff8a3d"
+green = "#30d158"
+cyan = "#64d2ff"
+blue = "#0a84ff"
+magenta = "#bf5af2"
+brown = "#c0362c"
+
+bright_red = "#ff6961"
+bright_yellow = "#ffd479"
+bright_green = "#31de4b"
+bright_cyan = "#70d7ff"
+bright_blue = "#409cff"
+bright_magenta = "#da8fff"
