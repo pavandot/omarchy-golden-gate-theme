@@ -5,6 +5,10 @@
 hl.config({
   general = {
     border_size = 1,
+    -- macOS "Tiled windows have margins": the same 8px between windows as to
+    -- the screen edges (gaps_in is per window, so two neighbours sum to 8).
+    gaps_in = 4,
+    gaps_out = 8,
   },
 
   decoration = {
