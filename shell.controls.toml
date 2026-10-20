@@ -16,9 +16,12 @@ focus-border       = "#0a84ff"
 focus-border-width = 1
 focus-border-alpha = 0.9
 
-selected-color        = "accent"
-selected-fill-alpha   = 0.30
-selected-border       = "#0a84ff"
+# macOS dark mode marks chosen segments, devices and slider tracks with a
+# light graphite pill rather than accent blue; blue is kept for focus rings
+# and menu selection.
+selected-color        = "foreground"
+selected-fill-alpha   = 0.20
+selected-border       = "#ffffff"
 selected-border-width = 0
 selected-border-alpha = 1.0
 
