@@ -1,5 +1,5 @@
--- Golden Gate theme: Liquid Glass blur, soft shadows, hairline borders and
--- macOS-like rounded corners. Installed by extras/install-glass.sh.
+-- Golden Gate theme: macOS 27 Liquid Glass. Frosted blur, a darkened edge shadow,
+-- hairline borders and the tighter, uniform window corners of Golden Gate. Installed by extras/install-glass.sh.
 -- Remove the matching require line from ~/.config/hypr/hyprland.lua to disable.
 
 hl.config({
@@ -8,27 +8,27 @@ hl.config({
   },
 
   decoration = {
-    rounding = 10,
+    rounding = 12,
     rounding_power = 3.0,
 
     shadow = {
       enabled = true,
-      range = 28,
-      render_power = 3,
-      color = "rgba(0000008c)",
-      color_inactive = "rgba(00000059)",
+      range = 32,
+      render_power = 4,
+      color = "rgba(000000a6)",
+      color_inactive = "rgba(00000066)",
     },
 
-    -- Frosted, slightly vibrant blur behind translucent surfaces only;
+    -- Frosted, less see-through than Tahoe, slightly vibrant blur behind translucent surfaces only;
     -- opaque app windows are unaffected.
     blur = {
       enabled = true,
-      size = 10,
+      size = 12,
       passes = 3,
-      noise = 0.015,
+      noise = 0.02,
       contrast = 1.0,
-      brightness = 0.9,
-      vibrancy = 0.25,
+      brightness = 0.85,
+      vibrancy = 0.3,
       vibrancy_darkness = 0.2,
       new_optimizations = true,
       xray = false,

@@ -1,11 +1,11 @@
-background       = "#232532"
+background       = "#262533"
 background-alpha = 0.45
-text             = "#f5f1ec"
-placeholder      = "#9a97a3"
+text             = "#f5f5f7"
+placeholder      = "#98989d"
 text-error       = "#ff453a"
-border           = "rgba(ffd9bf5c) rgba(ffffff14) 160deg"
-border-active    = "#ec5a2c"
+border           = "rgba(ffffff6b) rgba(ffffff10) 160deg"
+border-active    = "#0a84ff"
 border-error     = "#ff453a"
 border-alpha     = 1.0
-selection        = "#ec5a2c"
+selection        = "#0a84ff"
 selection-alpha  = 0.45
