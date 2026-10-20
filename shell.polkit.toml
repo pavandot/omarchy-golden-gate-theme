@@ -1,5 +1,5 @@
 background       = "#262533"
-background-alpha = 0.75
+background-alpha = 0.9
 text             = "#f5f5f7"
 text-error       = "#ff453a"
 border           = "rgba(ffffff6b) rgba(ffffff10) 160deg"
